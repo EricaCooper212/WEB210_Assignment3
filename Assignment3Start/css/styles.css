@@ -1,0 +1,81 @@
+
+/* COLORS 
+    #232C33 Gunmetal
+    #A4BAB7 opal
+    #EFF2C0 Pale Spring Pad
+    #A97C73 Burnished Brown
+    #8C271E Burnt Umber
+*/
+
+
+img {
+    width: 300px;
+}
+/* ABOUT / PROFILE  */
+header {
+    background-color: #232C33;
+    color: #F7FFF7;
+}
+.profile {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:900;
+}
+h1.profile {
+    font-size: 80px;
+}
+h2.profile {
+    font-size: 40px
+}
+
+/* PROJECTS / PORTFOLIO */
+.portfolio{
+    background-color: #A4BAB7;
+}
+.portfolio h2{
+    text-align: center;
+}
+.portfolio p a{
+    color: #F7FFF7;
+    text-decoration: none;
+}
+.portfolio p a:hover{
+    color:#8C271E;
+}
+.portfolio .btn {
+    color: #F7FFF7;
+    background: #232C33;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.portfolio .btn:hover{
+    color:#8C271E;
+    background: #F7FFF7;
+}
+
+/* WORK EXPERIENCE*/
+.work{
+    background-color: #EFF2C0;
+    color: #232C33;
+}
+.work h2{
+    text-align: center;
+}
+/* EDUCATION & CERTIFICATIONS */
+.education{
+    background-color: #A97C73;
+    color:#232C33;
+}
+.education h2{
+    text-align: center;
+}
+/* CONTACT INFO / SOCIAL MEDIA */
+
+footer {
+    background-color: #232C33;
+    color: #F7FFF7;
+}
+footer a {
+    color: #F7FFF7;
+    text-decoration: none;
+}
