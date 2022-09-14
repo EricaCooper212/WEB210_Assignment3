@@ -7,75 +7,122 @@
     #8C271E Burnt Umber
 */
 
+/*  #313638 Onyx
+    #F7F7FF Ghost White 
+    #DBD563 Straw 
+    #618985 Steel Teal
+    #739E82 Russian Green 
+    */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    /* color: #343434; */
+    margin: 0;
+    Font-Family: 'Poppins', Sans-Serif;
+    Font-Size: 14px;
+}
 
+
+.modernist {
+  background: #313638;
+  background-size: 100%;
+  color: #F7F7FF;
+  letter-spacing: .2em;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: .07em .07em 0 #313638, .1em .1em 0 #F7F7FF;
+}
 img {
     width: 300px;
 }
+h1, h2 {
+    Font-Family: 'Abril Fatface', Cursive;
+}
+h1 {
+    Font-Size: 48px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 /* ABOUT / PROFILE  */
 header {
-    background-color: #232C33;
-    color: #F7FFF7;
+    background-color: #313638;
+    color: #F7F7FF;
 }
 .profile {
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* text-align: center; */
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-weight:900;
-}
-h1.profile {
-    font-size: 80px;
-}
-h2.profile {
-    font-size: 40px
 }
 
 /* PROJECTS / PORTFOLIO */
 .portfolio{
-    background-color: #A4BAB7;
-}
-.portfolio h2{
-    text-align: center;
+    background-color: #618985;
 }
 .portfolio p a{
-    color: #F7FFF7;
+    color: #F7F7FF;
     text-decoration: none;
 }
 .portfolio p a:hover{
-    color:#8C271E;
+    color:#739E82;
 }
 .portfolio .btn {
-    color: #F7FFF7;
+    color: #F7F7FF;
     background: #232C33;
     text-decoration: none;
     border-radius: 4px;
+    display: inline-block;
 }
 .portfolio .btn:hover{
-    color:#8C271E;
-    background: #F7FFF7;
+    color:#739E82;
+    background: #F7F7FF;
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
 }
 
 /* WORK EXPERIENCE*/
 .work{
-    background-color: #EFF2C0;
-    color: #232C33;
-}
-.work h2{
-    text-align: center;
+    background-color: #DBD563;
+    color: #313638;
 }
 /* EDUCATION & CERTIFICATIONS */
 .education{
-    background-color: #A97C73;
-    color:#232C33;
-}
-.education h2{
-    text-align: center;
+    float: clear;
+    background-color: #739E82;
+    color:#313638;
 }
 /* CONTACT INFO / SOCIAL MEDIA */
 
 footer {
-    background-color: #232C33;
-    color: #F7FFF7;
+    float: clear;
+    background-color: #313638;
+    /* color: #F7F7FF; */
+}
+footer h2{
+    color: #F7F7FF;
 }
 footer a {
-    color: #F7FFF7;
+    color: #F7F7FF;
     text-decoration: none;
 }
